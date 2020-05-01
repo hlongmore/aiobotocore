@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 # NOTE: When updating botocore make sure to update awscli/boto3 versions below
 install_requires = [
     # pegged to also match items in `extras_require`
-    'botocore>=1.15.32,<1.15.33',
+    'botocore>=1.15.32,<=1.16.1',
     'aiohttp>=3.3.1',
     'wrapt>=1.10.10',
     'aioitertools>=0.5.1',
@@ -20,7 +20,7 @@ def read(f):
 
 extras_require = {
     'awscli': ['awscli==1.18.32'],
-    'boto3': ['boto3==1.12.32'],
+    'boto3': ['boto3>=1.12,<=1.13.1'],
 }
 
 
