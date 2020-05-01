@@ -1,5 +1,14 @@
 Changes
 -------
+
+1.0.4 (2020-04-15)
+^^^^^^^^^^^^^^^^^^
+* Fixed S3 Presigned Post not being async
+
+1.0.3 (2020-04-09)
+^^^^^^^^^^^^^^^^^^
+* Fixes typo when using credential process
+
 1.0.2 (2020-04-05)
 ^^^^^^^^^^^^^^^^^^
 * Disable Client.__getattr__ emit for now #789
